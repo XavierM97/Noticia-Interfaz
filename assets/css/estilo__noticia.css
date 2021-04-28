@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-image: url("../img/fondo.jpeg");
+    background-size: cover;
+    padding: 0px;
+    border: 0px;
+    text-align: left;
+}
+
+h1 {
+    color: brown;
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+.imagen_portada{
+    width: 100%;
+    margin: 25px auto 10px auto;
+    
+    
+}
+
+.fotografia{
+    width: 100%;
+    margin: 25px auto 10px auto;
+    border-radius: 4px;
+}
+
+.bajada_noticia {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-bottom: solid brown 2px;
+    color: rgb(49, 49, 49);
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(49, 49, 49);
+    font-weight: 400;
+}
+
+blockquote {
+    border-left: brown 5px solid;
+    border-right: brown 5px solid;
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: oblique;
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+    
+}
+
+#envoltorio__general {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 25px auto 10px auto;
+}
